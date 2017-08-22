@@ -25,3 +25,57 @@ nav{
 span{
   padding-right: 20px;
 }
+.container{  /*This is the div that contains all content below the header, all three columns.*/
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.column{
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-right: 20px;
+  flex-shrink: 0;
+}
+.article{
+  border: solid black 1px;
+  flex-wrap: nowrap;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black
+}
+
+#large{
+  width: 630px;
+}
+#medium{
+  width: 300px;
+}
+#small{
+  width: 240px;
+}
+
+.img-line{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  
+}
+
+#main{
+  font-size: 40px;
+  background-image: url("../main-story.png");
+}
+#fall{
+  background-image: url("../fall.png");
+}
+#camera{
+  background-image: url("../camera.png");
+}
+#cat{
+  background-image: url("../cat.png");
+}
